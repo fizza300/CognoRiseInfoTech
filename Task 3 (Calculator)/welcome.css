@@ -1,0 +1,40 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    background-image: url('cal.jpeg'); 
+    background-size: cover;
+}
+
+.welcome-container {
+    text-align: center;
+}
+
+button {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ddd;
+}
+
+#simple-calculator-btn {
+    background-color: #44c4eb;
+    color: white;
+}
+
+#scientific-calculator-btn {
+    background-color: #f0a53d;
+    color: white;
+}
